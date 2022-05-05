@@ -3,7 +3,7 @@
 const User = ({ url, title, name, lastName, tel }) => {
   return (
     <section className="User">
-      <img className="User__img" src={url} alt={title} width="480" />
+      <img className="User__img" src={url} alt={title} width="240" />
       <h1 className="User__name">
         {name}
         {lastName}
